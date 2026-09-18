@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n,i;
-    cout<<"Enter the number";
+    cout<<"Enter the number"<<endl;
     cin>>n;
     int rev=0,digit=0;
     while(n!=0)
@@ -12,5 +12,5 @@ int main()
         rev=rev*10+digit;
         n=n/10;
     }
-    cout<<"The reversed number="<<n<<endl;
+    cout<<"The reversed number="<<rev<<endl;
 }
