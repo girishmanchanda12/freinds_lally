@@ -2,11 +2,12 @@
 using namespace std;
 int main()
 {
-    int i=0;
-    int a=10,count=0;
-    for(;i<a;i++)
-    {
-        count++;
-    }
-    cout<<"cout";
+    int a = 10;
+    int b = 20;
+    int sum;
+
+    sum = a + b;
+    cout<<" sum of a+b is:"<<sum<<endl;
+
+    return 0;
 }
